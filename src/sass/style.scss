@@ -393,3 +393,73 @@ header,
   border: 2px solid var(--clr-primary);
   color: white;
 }
+
+/* ///////////////////////
+  Cat Details Section
+////////////////////// */
+.cat-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cat-detail {
+  flex: 1;
+  min-width: 120px;
+}
+
+.cat-detail h3 {
+  font-size: 1.2rem;
+  color: var(--clr-accent);
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.cat-detail p {
+  font-size: 1rem;
+  color: var(--clr-neutral-900);
+}
+
+.cat-detail {
+  background-color: var(--clr-background);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cat-detail h3,
+.cat-detail p {
+  margin: 0;
+}
+
+/* Styling for images */
+.main-article__figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.btn--primary {
+  background-color: var(--clr-accent);
+  color: white;
+  padding: 1em 2em;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.btn--primary:hover {
+  background-color: var(--clr-primary);
+}
+
+/* Section Titles */
+.article-title {
+  font-size: 2rem;
+  color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
