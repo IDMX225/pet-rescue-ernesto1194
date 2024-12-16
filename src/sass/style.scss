@@ -101,44 +101,58 @@ article img {
 
 /* //////////////////////
   Header
-  /////////////////////// */
+///////////////////// */
 
 .page-header {
   padding: 2em 0;
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+  text-align: center;
 }
 
 .page-header__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.company-name h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--clr-neutral-100);
+}
+
+.logo svg {
+  fill: var(--clr-neutral-100);
 }
 
 .nav-list {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
 .nav-list a {
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   text-decoration: none;
 }
 
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-accent);
-  // text-decoration: underline;
 }
 
 /* //////////////////////
   Footer
   (make it sticky)
-  https://css-tricks.com/couple-takes-sticky-footer/
   /////////////////////// */
 
 html,
 body {
   height: 100%;
   font-family: "Raleway", sans-serif;
-
 }
 
 body {
@@ -161,6 +175,13 @@ header,
   background-color: var(--clr-primary);
   text-align: center;
 }
+
+.site-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 
 
 /* //////////////////////
