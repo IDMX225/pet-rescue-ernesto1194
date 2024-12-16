@@ -119,14 +119,25 @@ article img {
   padding: 0 2rem;
 }
 
+.company-name {
+  flex: 1;
+  text-align: left;
+}
+
 .company-name h1 {
   margin: 0;
   font-size: 2rem;
   color: var(--clr-neutral-100);
 }
 
-.logo svg {
-  fill: var(--clr-neutral-100);
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo {
+  flex-shrink: 0;
 }
 
 .nav-list {
