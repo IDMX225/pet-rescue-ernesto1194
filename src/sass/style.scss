@@ -133,7 +133,8 @@ article img {
 .logo-wrapper {
   display: flex;
   justify-content: center;
-  flex: 1;
+  align-items: center;
+  flex: 0 1 auto;
 }
 
 .logo {
@@ -143,6 +144,8 @@ article img {
 .nav-list {
   display: flex;
   gap: 20px;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .nav-list a {
